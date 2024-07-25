@@ -1,0 +1,21 @@
+# general things to ignore
+build/
+dist/
+.venv/
+.direnv/
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.so
+*~≈
+.env
+.envrc
+.python-version
+.idea
+.pytest_cache
+
+# due to using tox and pytest
+.tox
+.cache
+.mypy_cache
