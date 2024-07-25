@@ -1,7 +1,7 @@
-# Rembg
+# BGRemover
 
 
-Rembg is a tool to remove images background.
+BGRemover is a tool to remove images background.
 
 <p style="display: flex;align-items: center;justify-content: center;">
   <img alt="example car-1" src="https://raw.githubusercontent.com/danielgatis/rembg/master/examples/car-1.jpg" width="100" />
@@ -316,42 +316,4 @@ The available models are:
 - isnet-anime ([download](https://github.com/danielgatis/rembg/releases/download/v0.0.0/isnet-anime.onnx), [source](https://github.com/SkyTNT/anime-segmentation)): A high-accuracy segmentation for anime character.
 - sam ([download encoder](https://github.com/danielgatis/rembg/releases/download/v0.0.0/vit_b-encoder-quant.onnx), [download decoder](https://github.com/danielgatis/rembg/releases/download/v0.0.0/vit_b-decoder-quant.onnx), [source](https://github.com/facebookresearch/segment-anything)): A pre-trained model for any use cases.
 
-### How to train your own model
 
-If You need more fine tuned models try this:
-<https://github.com/danielgatis/rembg/issues/193#issuecomment-1055534289>
-
-## Some video tutorials
-
-- <https://www.youtube.com/watch?v=3xqwpXjxyMQ>
-- <https://www.youtube.com/watch?v=dFKRGXdkGJU>
-- <https://www.youtube.com/watch?v=Ai-BS_T7yjE>
-- <https://www.youtube.com/watch?v=D7W-C0urVcQ>
-
-## References
-
-- <https://arxiv.org/pdf/2005.09007.pdf>
-- <https://github.com/NathanUA/U-2-Net>
-- <https://github.com/pymatting/pymatting>
-
-## FAQ
-
-### When will this library provide support for Python version 3.xx?
-
-This library directly depends on the [onnxruntime](https://pypi.org/project/onnxruntime) library. Therefore, we can only update the Python version when [onnxruntime](https://pypi.org/project/onnxruntime) provides support for that specific version.
-
-## Buy me a coffee
-
-Liked some of my work? Buy me a coffee (or more likely a beer)
-
-<a href="https://www.buymeacoffee.com/danielgatis" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;"></a> <!-- markdownlint-disable MD033 -->
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=danielgatis/rembg&type=Date)](https://star-history.com/#danielgatis/rembg&Date)
-
-## License
-
-Copyright (c) 2020-present [Daniel Gatis](https://github.com/danielgatis)
-
-Licensed under [MIT License](./LICENSE.txt)
